@@ -9,8 +9,10 @@ vue2.0 + elementUI + scss
 所以这个Demo就是通过配置JSON数据的形式去实现表单组件的高复用、好维护，实现用配置化方式开发表单，
 完完全全就是为了高复用、可维护性，然后提升开发效率，解放生产力。
 ```
+
 ## JSON数据
-![image](​ ​https://github.com/Xling-web/SchemaForm/blob/main/src/assets/imgs/json.png)
+![image](​ ​https://github.com/Xling-web/SchemaForm/blob/main/src/assets/imgs/json.png )
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
 ## Build Setup
 ```
