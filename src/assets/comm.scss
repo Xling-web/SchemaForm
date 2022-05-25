@@ -1,0 +1,5 @@
+.rule-form::v-deep{
+    .el-range-editor,.el-select{
+        width: 100%;
+    }
+}

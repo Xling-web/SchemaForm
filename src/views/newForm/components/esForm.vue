@@ -39,7 +39,6 @@
 
 <script>
 import config from './config'
-
 export default{
     data() {
         return {
@@ -48,6 +47,7 @@ export default{
         }
     },
     created() {
+        // 将config内的ruleform数据提取出来
         config.forEach(e => {
             this.$set(this.ruleForm,e.key,e.value)
         })
@@ -57,3 +57,7 @@ export default{
     },
 }
 </script>
+
+<style lang="scss" scoped>
+@import "@/assets/comm.scss";
+</style>

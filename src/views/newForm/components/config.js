@@ -15,17 +15,19 @@ export default[
             clearable: true,
         },
     },{
-        type:'el-select',
-        key:'region',
-        value:'',
-        label: '活动区域',
-        span:12,
-        labelWidth:100,
-        rules:{ required: true, message: '请选择活动区域', trigger: 'change' },
+        type:'el-select',//所需渲染的组件名
+        key:'region',// 当前字段的 key 值
+        value:'',// 当前字段的的数据
+        label: '活动区域',// 当前 el-form-item 的label
+        span:12,//el-col的span数据
+        labelWidth:100,// el-form-item 的label宽度
+        rules:{ required: true, message: '请选择活动区域', trigger: 'change' },//表单验证规则
+        //注入到渲染组件当中的属性
         props: {
             placeholder: '请选择活动区域',
             clearable: true
         },
+        //注入到渲染组件当中的数据  如：select下拉内容或checkbox、radio的数据
         data:[
             {
                 id:1,
@@ -109,7 +111,7 @@ export default[
         key:'desc',
         value:"",
         label: '活动形式',
-        span:12,
+        span:24,
         labelWidth:100,
         rules:{ required: true, message: '请填写活动形式', trigger: 'blur' },
         props: {
