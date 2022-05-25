@@ -10,7 +10,7 @@ vue2.0 + elementUI + scss
 完完全全就是为了高复用、可维护性，然后提升开发效率，解放生产力。
 ```
 ## JSON数据
-![image](​ ​https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png​​)
+![image](​ ​https://github.com/Xling-web/SchemaForm/blob/main/src/assets/imgs/json.png)
 
 ## Build Setup
 ```
