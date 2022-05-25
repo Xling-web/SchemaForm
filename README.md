@@ -11,8 +11,7 @@ vue2.0 + elementUI + scss
 ```
 
 ## JSON数据
-![image](​ ​https://github.com/Xling-web/SchemaForm/blob/main/src/assets/imgs/json.png )
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://github.com/Xling-web/picture/blob/main/SchemaForm/json.png)
 
 ## Build Setup
 ```
